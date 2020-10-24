@@ -10,7 +10,8 @@ header{
     width: 100%;
     border: 4px solid red;
     border-radius: 3px;
-    
+    margin-bottom: 5px;
+    margin-right: -3px;
     
 }
 
@@ -64,6 +65,8 @@ aside {
     display: inline-block;
     width: 20%;
     min-height: 300px;
+    margin: 3px -2px;
+    vertical-align:top;
 }
 
 main {
@@ -73,14 +76,17 @@ main {
     display: inline-block;
     width: 56%;
     min-height: 300px;
+    margin: 3px 5px;
     
 }
 
 article {
     background-color: yellow;
     border: 1px solid coral;
-    border-radius: 3px;
-    width: 15%;
+    border-radius: 2px;
+    height: 70px;
+    margin: inherit;
+    margin-top: 20px;
     
 }
 
@@ -88,9 +94,9 @@ footer {
     border: 3px solid rgb(10, 10, 10);
     border-radius: 3px;
     /* display: inline; */
-    height: 100px;
+    height: 70px;
     width: 100%;
-   
+    margin-top: 5px;
     
 }
 
