@@ -1,8 +1,58 @@
-$color-primary: #00a3ff;
+$color-primary: #00A3FF;
 $color-white: #fff;
 $color-black: #000;
-$gray: #ccc;
+$gray: #cccccc;
+$pink: pink;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .container-flex{
     background-color: pink;
+
+    .square{
+        color: $color-white;
+        background-color: $gray;
+
+        &.item-1{
+            color: $color-primary;
+        }
+        p.text-white{
+            color: $color-white;
+        }
+    }
+}
+
+form.form{
+    border: 1px solid $gray;
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+
+    .from-group{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+
+        imput{
+            height: 50px;
+            border: 1px solid $gray;
+            border-radius: 3px;
+        }
+        bottom.btn{
+            height: 50px;
+            background-color: $color-primary;
+            border: none;    
+            border-radius: 5px;
+            color: $color-white;
+
+            }
+
+    }
+
+   
 }

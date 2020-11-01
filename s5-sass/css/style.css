@@ -1,4 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .container-flex {
   background-color: pink;
+}
+
+.container-flex .square {
+  color: #fff;
+  background-color: #cccccc;
+}
+
+.container-flex .square.item-1 {
+  color: #00A3FF;
+}
+
+.container-flex .square p.text-white {
+  color: #fff;
+}
+
+form.form {
+  border: 1px solid #cccccc;
+  width: 70%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form.form .from-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+
+form.form .from-group imput {
+  height: 50px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+form.form .from-group bottom.btn {
+  height: 50px;
+  background-color: #00A3FF;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
